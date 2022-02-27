@@ -1,0 +1,17 @@
+// Open Props
+@import '../node_modules/open-props/open-props.min.css';
+@import '../node_modules/open-props/normalize.min.css';
+@import '../node_modules/open-props/buttons.min.css';
+@import '../node_modules/open-props/colors-hsl.min.css';
+@import '../node_modules/open-props/sizes.min.css';
+@import '../node_modules/open-props/shadows.min.css';
+@import '../node_modules/open-props/borders.min.css';
+
+*{
+  box-sizing: border-box;
+}
+// Components
+@import 'components/modal';
+@import 'components/button';
+@import 'components/team-grid';
+@import 'components/team-card';

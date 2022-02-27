@@ -1,0 +1,22 @@
+button {
+  &.blue {
+    color: var(--blue-0);
+    background-color: var(--blue-9);
+    border: 1px solid var(--blue-7);
+    text-shadow: 0 1px 0 var(--blue-2);
+
+    &:hover {
+      background-color: var(--blue-7);
+    }
+  }
+  &.red {
+    color: var(--gray-0);
+    background-color: var(--red-9);
+    border: 1px solid var(--red-7);
+    text-shadow: 0 1px 0 var(--red-2);
+
+    &:hover {
+      background-color: var(--red-8);
+    }
+  }
+}

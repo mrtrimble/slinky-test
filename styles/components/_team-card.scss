@@ -1,0 +1,12 @@
+.team-card {
+  padding: var(--size-fluid-4);
+  background:var(--gray-8);
+  border-radius: var(--radius-3);
+  h2{
+    white-space: nowrap;
+    margin-block-end: var(--size-3);
+  }
+  dl > * + * {
+    margin-block-start: var(--size-3);
+  }
+}

@@ -1,0 +1,7 @@
+.team-grid {
+  box-sizing: border-box;
+  padding:var(--size-3);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(45ch, 1fr));
+  grid-gap:var(--size-3);
+}

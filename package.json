@@ -1,0 +1,21 @@
+{
+  "name": "slinky-demo",
+  "version": "1.0.0",
+  "description": "A splendid starter for my Slinkity site!",
+  "main": ".eleventy.js",
+  "scripts": {
+    "dev": "slinkity --serve --incremental",
+    "start": "slinkity --serve --incremental",
+    "build": "slinkity"
+  },
+  "dependencies": {
+    "gsap": "^3.9.1",
+    "open-props": "^1.3.8",
+    "vue": "^3.2.28"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0",
+    "@slinkity/renderer-vue": "^0.1.0",
+    "slinkity": "^0.6.1"
+  }
+}
